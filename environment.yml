@@ -1,0 +1,20 @@
+name: llm-finetuning
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+    - transformers==4.31.0
+    - torch==2.0.1
+    - deepspeed==0.9.5
+    - optuna==3.2.0
+    - wandb==0.15.9
+    - tensorboard==2.13.0
+    - mlflow==2.7.1
+    - datasets==2.12.0
+    - sentence-transformers==2.2.2

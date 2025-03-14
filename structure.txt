@@ -1,0 +1,20 @@
+project/
+├── README.md
+├── requirements.txt
+├── environment.yml
+├── data/
+│   ├── preprocess_data.py
+│   ├── raw.csv
+│   ├── raw_train.csv
+│   ├── raw_test.csv
+├── src/
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── inference.py
+│   ├── deployment/
+│   │   ├── Dockerfile
+├── models/
+│   ├── pretrained/
+│   ├── final_tune_model/
+├── logs/
+├── ds_config.json

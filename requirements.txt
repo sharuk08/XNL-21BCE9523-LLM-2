@@ -1,0 +1,17 @@
+transformers
+torch
+deepspeed
+optuna
+wandb
+tensorboard
+mlflow
+numpy
+pandas
+scikit-learn
+datasets
+sentence-transformers 
+nltk
+requests
+huggingface_hub
+torchmetrics
+sentencepiece
